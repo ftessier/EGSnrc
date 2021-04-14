@@ -1,0 +1,64 @@
+\_form#0=11x16:$\overline{g}$
+\_form#1=14x14:$\textrm{K}$
+\_form#2=32x18:$\textrm{K}_\mathrm{col}$
+\_form#3=42x19:$\overline{\mu}_\mathrm{tr}/\rho$
+\_form#4=46x19:$\overline{\mu}_\mathrm{en}/\rho$
+\_form#5=26x12:$\mu_\mathrm{en}$
+\_form#6=46x19:$\mu_\mathrm{en}/\rho$
+\_form#7=42x19:$\mu_\mathrm{tr}/\rho$
+\_form#8=11x9:$\sigma$
+\_form#9=19x16:$T_0$
+\_form#10=35x19:$\overline{E}_\mathrm{rad}$
+\_form#11=341x42:\begin{equation} Y = \frac{\overline{E}_\mathrm{rad}}{T_0}. \end{equation}
+\_form#12=49x18:$Y_\mathrm{brems}$
+\_form#13=33x19:$\overline{E}_\mathrm{tot}$
+\_form#14=40x19:$T(E)$
+\_form#15=14x16:$\overline{T}$
+\_form#16=380x44:\begin{equation}\label{def_mutr} \left(\frac{\mu_\mathrm{tr}}{\rho}\right) = \frac{\overline{E}_\mathrm{tr}}{E} \cdot \left(\frac{\mu}{\rho}\right), \end{equation}
+\_form#17=26x19:$\overline{E}_\mathrm{tr}$
+\_form#18=30x19:$\mu/\rho$
+\_form#19=453x44:\begin{equation}\label{def_muen} \left(\frac{\mu_\mathrm{en}}{\rho}\right) = \left(1-\overline{g}\right) \cdot \left(\frac{\mu_\mathrm{tr}}{\rho}\right) = \frac{\overline{E}_\mathrm{ab}}{E} \cdot \left(\frac{\mu}{\rho}\right), \end{equation}
+\_form#20=30x19:$\overline{E}_\mathrm{ab}$
+\_form#21=35x23:$\overline{\overline{E}}_\mathrm{rad}$
+\_form#22=340x47:\begin{equation}\label{eq_g_mono} \overline{g} = \frac{\overline{\overline{E}}_\mathrm{rad}}{\overline{E}_\mathrm{tr}}, \end{equation}
+\_form#23=371x25:\begin{equation}\label{EradP} \overline{\overline{E}}_\mathrm{rad} = \overline{E}_\mathrm{tr} - \overline{E}_\mathrm{ab}. \end{equation}
+\_form#24=364x42:\begin{equation}\label{eq:K} \frac{K}{\phi} = E \cdot \left(\mu_\mathrm{tr}/\rho\right), \end{equation}
+\_form#25=375x42:\begin{equation}\label{eq:Kcol} \frac{K_\mathrm{col}}{\phi} = E \cdot \left(\mu_\mathrm{en}/\rho\right). \end{equation}
+\_form#26=478x44:\begin{equation}\label{eq:def} \frac{K}{\phi} = \int \phi(E) \cdot E \cdot \left[\frac{\mu_\mathrm{tr}(E)}{\rho}\right] \cdot dE/\int \phi(E) \cdot dE. \end{equation}
+\_form#27=438x42:\begin{equation}\label{eq:Kpoly} \frac{K}{\phi} = \left<\mu_\mathrm{tr}/\rho\right>_{\psi} \cdot \left<E\right>_{\phi} = \left<E\cdot\mu_\mathrm{tr}/\rho\right>_{\phi}. \end{equation}
+\_form#28=23x12:$\mu_\mathrm{tr}$
+\_form#29=448x42:\begin{equation}\label{eq:Kpolycol}\label{eq_kerma_0} \frac{K_\mathrm{col}}{\phi} = \left<\mu_\mathrm{en}/\rho\right>_{\psi} \cdot \left<E\right>_{\phi} = \left<E\cdot\mu_\mathrm{en}/\rho\right>_{\phi}. \end{equation}
+\_form#30=455x42:\begin{equation}\label{eq_kerma_1} \frac{K_\mathrm{col}}{\phi} = \left(1-\overline{g}\right) \frac{K}{\phi} = \left(1-\overline{g}\right) \left<E\cdot\mu_\mathrm{tr}/\rho\right>_{\phi}, \end{equation}
+\_form#31=375x49:\begin{equation} \overline{g} = 1 - \frac{\left<E\cdot\mu_\mathrm{en}\right>_{\phi}}{\left<E\cdot\mu_\mathrm{tr}\right>_{\phi}}, \end{equation}
+\_form#32=431x67:\begin{equation}\label{eq:g} \overline{g} = 1 - \frac{\left<\overline{E}_\mathrm{en}\cdot\mu\right>_{\phi}}{\left<\overline{E}_\mathrm{tr}\cdot\mu\right>_{\phi}} = \frac{\left<\overline{\overline{E}}_\mathrm{rad}\cdot\mu\right>_{\phi}}{\left<\overline{E}_\mathrm{tr}\cdot\mu\right>_{\phi}} \end{equation}
+\_form#33=63x23:$\left<\mu_\mathrm{tr}/\rho\right>_{\psi}$
+\_form#34=443x51:\begin{equation} \left<\mu_\mathrm{tr}/\rho\right>_{\psi} = \frac{\left<E\cdot\mu_\mathrm{tr}/\rho\right>_{\phi}}{\left<E\right>_{\phi}} = \frac{\left<\overline{E}_\mathrm{tr}\cdot\mu\right>_{\phi}}{\left<E\right>_{\phi}}, \end{equation}
+\_form#35=67x23:$\left<\mu_\mathrm{en}/\rho\right>_{\psi}$
+\_form#36=448x51:\begin{equation}\label{eq_muen_0} \left<\mu_\mathrm{en}/\rho\right>_{\psi} = \frac{\left<E\cdot\mu_\mathrm{en}/\rho\right>_{\phi}}{\left<E\right>_{\phi}} = \frac{\left<\overline{E}_\mathrm{en}\cdot\mu\right>_{\phi}}{\left<E\right>_{\phi}}, \end{equation}
+\_form#37=408x23:\begin{equation}\label{eq_muen_1} \left<\mu_\mathrm{en}/\rho\right>_{\psi} = \left(1-\overline{g}\right) \left<\mu_\mathrm{tr}/\rho\right>_{\psi}, \end{equation}
+\_form#38=63x23:$\sigma/\sqrt{4/3}$
+\_form#39=28x19:$\sigma/2$
+\_form#40=14x12:$E$
+\_form#41=9x12:$q$
+\_form#42=26x14:$\Delta\mathrm{E}$
+\_form#43=238x18:$E_\mathrm{min}, ..., E_\mathrm{min} + i \cdot \Delta\mathrm{E}, ..., E_\mathrm{max}$
+\_form#44=33x19:$\Delta_\mathrm{log}$
+\_form#45=413x44:\begin{equation} \Delta_\mathrm{log} = log\left(\frac{E_\mathrm{max}}{E_\mathrm{min}}\right)/\left(N-1\right) \end{equation}
+\_form#46=380x23:\begin{equation} E_i = e^{log(E_\mathrm{min})+i \cdot \Delta_\mathrm{log}} \end{equation}
+\_form#47=497x40:\begin{equation} \sigma(\mu_\mathrm{tr}) = \frac{\sigma}{\sqrt{m}} \qquad \textrm{and} \qquad \sigma(1-\overline{g}) = \frac{\sigma}{\sqrt{m/(m-1)}} \end{equation}
+\_form#48=11x16:$\mathrm{\overline{g}}$
+\_form#49=63x23:$\left<\mu_\mathrm{tr}/\rho\right>_\psi$
+\_form#50=67x23:$\left<\mu_\mathrm{en}/\rho\right>_\psi$
+\_form#51=105x19:$\mu_\mathrm{tr}/\rho\cdot\left(1-\mathrm{\overline{g}}\right)$
+\_form#52=67x19:$E\cdot\mu_\mathrm{tr}/\rho$
+\_form#53=51x16:$E\cdot\mu_\mathrm{en}$
+\_form#54=26x12:$\mathrm{e_{tot}}$
+\_form#55=30x12:$\mathrm{e_{rad}}$
+\_form#56=44x23:$\sqrt{4/3}$
+\_form#57=359x30:$\sigma(\mu_\mathrm{tr}) = \frac{\sigma}{\sqrt{m}} \qquad \textrm{and} \qquad \sigma(1-\overline{g}) = \frac{\sigma}{\sqrt{m/(m-1)}}$
+\_form#58=89x21:$\mathrm{MeV}\,\mathrm{cm}^2/\mathrm{g}$
+\_form#59=54x19:$\mathrm{Gy}\,\mathrm{cm}^2$
+\_form#60=331x40:\[ \left<\mu_\mathrm{tr}/\rho\right>_{\psi} = \int \psi(E) \mu_\mathrm{tr}(E)/\rho dE/\int \psi(E) dE \]
+\_form#61=471x40:\[ \left<\mu_\mathrm{en}/\rho\right>_{\psi} = \int \psi(E) \mu_\mathrm{en}(E)/\rho dE/\int \psi(E) dE = \left<\mu_\mathrm{tr}/\rho\right>\,\left(1-\overline{g}\right) \]
+\_form#62=79x23:$\left<E\,\mu_\mathrm{tr}/\rho\right>_{\phi}$
+\_form#63=82x23:$\left<E\,\mu_\mathrm{en}/\rho\right>_{\phi}$
